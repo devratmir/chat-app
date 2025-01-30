@@ -19,19 +19,19 @@ const headerLinks = [
 const directChats = [
     {
         name: "Jonathan",
-        img: "https://placeholder.co/40"
+        img: "img/40px.svg"
     },
     {
         name: "Lorem Ipsum",
-        img: "https://placeholder.co/40"
+        img: "img/40px.svg"
     },
     {
         name: "Ratmir",
-        img: "https://placehold.co/40"
+        img: "img/40px.svg"
     },
     {
         name: "Mom",
-        img: "https://upload.wikimedia.org/wikipedia/commons/8/86/Woman_at_Lover%27s_Bridge_Tanjung_Sepat_%28cropped%29.jpg"
+        img: "img/woman.jpg"
     }
 ]
 
@@ -39,15 +39,15 @@ const directChats = [
 const groups = [
     {
         name: "Year 4 Parents",
-        img: "https://placeholder.co/50"
+        img: "img/50px.svg"
     },
     {
         name: "⭐Super Besties⭐",
-        img: "https://placeholder.co/50"
+        img: "img/50px.svg"
     },
     {
         name: "Garage Sales LA",
-        img: "https://placeholder.co/50"
+        img: "img/50px.svg"
     }
 ]
 

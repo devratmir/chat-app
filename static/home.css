@@ -56,6 +56,10 @@ ul li {
     background-color: rgb(222, 255, 239);
 }
 
+.profile-preview-span:active {
+    background-color: rgb(135, 197, 167);
+}
+
 .profile-preview-span img {
     border-radius: 50%;
 }
@@ -93,12 +97,12 @@ ul li {
     padding: 3px;
 }
 
-.group-preview-name:hover {
-    text-decoration-line: underline;
-}
-
 .group-preview-span:hover {
     background-color: rgb(249, 243, 255);
+}
+
+.group-preview-span:active {
+    background-color: rgb(196, 173, 219);
 }
 
 .group-preview-span img {
@@ -132,6 +136,7 @@ ul li {
 }
 
 #account-dropdown-menu a {
+    cursor: pointer;
     width: 100%;
     height: 20px;
     padding: 10px 0;
@@ -142,7 +147,11 @@ ul li {
     background-color: rgb(210, 198, 230);
 }
 
-@media (max-width: 550px) {
+#account-dropdown-menu a:active {
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 550px), (min-width: 1000px) {
     .profile-preview-list {
         flex-direction: column;
     }
@@ -175,5 +184,12 @@ ul li {
 
     #account-dropdown-menu a {
         border-radius: 10px;
+    }
+}
+
+@media (min-width: 1050px) {
+    body {
+        width: 1000px;
+        margin: auto;
     }
 }
